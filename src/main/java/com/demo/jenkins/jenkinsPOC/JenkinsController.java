@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinsController {
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/jenkins/hello")
 	String getJenkinsDetails() {
 		
 		System.out.println("Welcome to jenkins Family on: "+new Date());
