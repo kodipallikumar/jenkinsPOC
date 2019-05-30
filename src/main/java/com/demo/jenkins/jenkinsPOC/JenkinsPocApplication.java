@@ -8,6 +8,7 @@ public class JenkinsPocApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsPocApplication.class, args);
+		System.out.println("Updated File");
 	}
 
 }
