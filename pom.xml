@@ -33,11 +33,7 @@
         		<groupId>org.sonarsource.scanner.maven</groupId>
     			<artifactId>sonar-maven-plugin</artifactId>
     			<version>3.6.0.1398</version>
-    			<goals>
-			<goal>sonar</goal>
-			</goals>
-
-		</dependency>
+    		</dependency>
 	</dependencies>
 
 	<build>
