@@ -27,7 +27,7 @@ steps{
          stage ('deploy'){
         steps{
             echo "Maven deploy Started"
-                bat 'cp jenkinsPipeline/target/jenkinsPOC-0.0.1-SNAPSHOT.jar C:/Installables/Tomcat 8/apache-tomcat-8.5.41/webapps/''
+                bat 'cp jenkinsPipeline/target/jenkinsPOC-0.0.1-SNAPSHOT.jar C:/Installables/Tomcat 8/apache-tomcat-8.5.41/webapps/'
            echo "Maven deploy Completed"
             
             }
