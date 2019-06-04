@@ -14,7 +14,7 @@ steps{
         stage ('build'){
         steps{
             echo "build"
-            sh 'mvn -B clean verify'
+            bat 'mvn -B clean verify'
             }
 
  }
