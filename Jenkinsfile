@@ -14,6 +14,7 @@ steps{
         stage ('build'){
         steps{
             echo "build"
+            sh 'java -version'
             }
 
  }
