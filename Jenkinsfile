@@ -14,7 +14,7 @@ steps{
         stage ('build'){
         steps{
             echo "build"
-            sh 'java -version'
+            sh 'mvn -B clean verify'
             }
 
  }
