@@ -11,9 +11,9 @@ steps{
     echo "test"
     }
   }
-        stage ('package'){
+        stage ('build'){
         steps{
-            java -jar target/jenkinsPOC-0.0.1-SNAPSHOT.jar
+            echo "build"
             }
 
  }
