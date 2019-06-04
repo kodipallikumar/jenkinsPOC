@@ -24,17 +24,6 @@ steps{
             }
 
  }
-        stage('Deploy') {
-            when {
-              expression {
-                currentBuild.result == null || currentBuild.result == 'SUCCESS' 
-              }
-            }
-            steps {
-                 echo "Maven publish Started"
-                    bat 'make publish'
-                 echo "Maven publish Completed"
-            }
-        }
+        
 }
 }
