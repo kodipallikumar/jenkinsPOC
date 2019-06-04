@@ -12,5 +12,11 @@ echo "test"
 }
 
     }
+        stage ('package'){
+steps{
+echo "package"
+}
+
+    }
 }
 }
